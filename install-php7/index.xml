@@ -1,0 +1,27 @@
+<step>
+<title>Install <nm>php7</nm></title>
+
+<biblio type = "web" ref = "http://tecadmin.net/install-php-7-0-apache-2-4-mysql-5-6-on-ubuntu/" />
+
+<p>
+Currently, <nm>php7</nm> is not available through the standard Ubuntu channels,
+so a separate repository must be added and then the package-lists updated again.
+</p>
+
+<cmls>
+<cm>sudo add-apt-repository ppa:ondrej/php</cm>
+<cm>sudo apt-get update</cm>
+</cmls>
+
+<p>
+Only now can <nm>php7</nm> and
+all it's parts be installed.
+</p>
+
+<cmls>
+<cm>sudo apt-get install -y php7.0</cm>
+<cm>sudo apt-cache search 'php7-*'</cm>
+<cm>sudo apt-get install -y libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json</cm>
+</cmls>
+
+</step>

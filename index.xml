@@ -1,5 +1,7 @@
 <jdarchdoc format = "tech:howto">
 <title>Get LAMP working on Ubuntu Desktop</title>
 
+<step id = 'w' src = 'install-mariadb/index.xml' />
+<step id = 'x' src = 'install-php7/index.xml' />
 
 </jdarchdoc>

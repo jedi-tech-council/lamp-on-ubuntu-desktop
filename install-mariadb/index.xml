@@ -1,0 +1,8 @@
+<step>
+
+<cmls>
+<cm>sudo apt-get install -y mariadb-server</cm>
+<cm>sudo mysql_secure_installation</cm>
+</cmls>
+
+</step>
